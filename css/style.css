@@ -12412,7 +12412,6 @@ textarea.form-control {
   transform: scale(1);
 } */
 
-
 .row-gallery {
   display: flex;
   justify-content: center;
@@ -12445,11 +12444,43 @@ textarea.form-control {
     flex: 1 1 calc(50% - 10px); /* Two columns layout with gap */
     max-width: calc(50% - 10px); /* Ensure the same width with the gap */
   }
+
+  .owl-stage-outer {
+    max-height: 50vh !important;
+  }
+  .home-slider.owl-carousel.js-fullheight.owl-loaded.owl-drag {
+    max-height: 50vh !important;
+  }
+
+  .slider-item.js-fullheight {
+    max-height: 50vh !important;
+  }
+
+  .row.slider-text.js-fullheight.justify-content-center.align-items-center {
+    max-height: 50vh !important;
+  }
 }
 
 @media (max-width: 768px) {
   .gallery a {
     flex: 1 1 calc(100% - 10px); /* One column layout with gap */
     max-width: calc(100% - 10px); /* Ensure the same width with the gap */
+  }
+
+  .owl-stage-outer {
+    max-height: 50vh !important;
+  }
+
+  .home-slider.owl-carousel.js-fullheight.owl-loaded.owl-drag {
+    max-height: 50vh !important;
+  }
+
+  .slider-item.js-fullheight {
+    max-height: 50vh !important;
+  }
+
+  .slider-item.js-fullheight
+    .row.slider-text.js-fullheight.justify-content-center.align-items-center {
+    max-height: 50vh !important;
   }
 }
