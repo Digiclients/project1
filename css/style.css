@@ -12459,6 +12459,10 @@ textarea.form-control {
   .row.slider-text.js-fullheight.justify-content-center.align-items-center {
     max-height: 50vh !important;
   }
+
+  .h-50vh {
+    max-height: 50vh !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -12482,5 +12486,9 @@ textarea.form-control {
   .slider-item.js-fullheight
     .row.slider-text.js-fullheight.justify-content-center.align-items-center {
     max-height: 50vh !important;
+  }
+
+  .h-50vh {
+    height: 50vh !important;
   }
 }
